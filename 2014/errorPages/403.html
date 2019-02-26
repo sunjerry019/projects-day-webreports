@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+        <title>Error 403 (Forbidden)!</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html, code {
+                font: 14px/22px 'Open Sans', sans-serif, Arial;
+            }
+            html {
+                background-color: #F9F9F9;
+                color: #302D2D;
+                padding: 15px;
+            }
+            body {
+                margin: 7% auto 0;
+                max-width: 400px;
+                min-width: 390px;
+                min-height: 180px;
+                padding:30px 0 15px;
+            }
+            img{
+                border: none;
+            }
+            p {
+                margin: 11px 0 22px;
+                overflow: hidden;
+            }
+            ins {
+                color: #777;
+                text-decoration: none;
+            }
+            a {
+                text-decoration: none;
+                color: #302D2D;
+            }
+            a:hover {
+                color: #716b6b;
+            }
+            #h-title {
+                height: 50px;
+                width: 300px;
+                display: inline-block;
+                text-align: justify;
+                padding-left: 5px;
+                padding-top: 5px;
+                vertical-align: top;
+                font-size: 15px;
+                -webkit-hyphens: auto;
+                   -moz-hyphens: auto;
+                    -ms-hyphens: auto;
+                        hyphens: auto;
+            }
+            @media screen and (max-width:772px) {
+                body {
+                    background: none;
+                    margin-top: 0;
+                    max-width: none;
+                    padding-right: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <a id="home" href="/">
+            <img alt="logo" src="/images/favicon.ico" width="50" height="50">
+            <div id="h-title">Bioremediation of Strontium and Copper in water by Algae and Sea Urchins</div>
+        </a>
+        <p><b>403.</b> <ins>That’s an error.</ins></p>
+        <p>You are forbidden to view the contents.  <ins>That’s all we know.</ins></p>
+        <p>You can go back to your <span id="last"><a onclick="history.back()" style="cursor: pointer;">last page</a></span> and try again.</p>
+        <script>
+            (function ()
+            {
+                if (document.referrer != "")
+                {
+                    document.getElementById("last").innerHTML = "<a onclick='history.back()' style='cursor: pointer; border-bottom: 1px dotted'>last page</a> (" + document.referrer + ")";
+                }
+            })();
+        </script>
+    </body>
+</html>

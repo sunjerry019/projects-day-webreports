@@ -1,0 +1,348 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="cache.appcache"><head>
+<meta name="description" content="Effects of Common Foods on Bacteria in Water" />
+
+<!--[if lt IE 9]>
+<script src="html5shiv-printshiv.js"></script>
+<script src="IE7/IE9.js"></script>
+<![endif]-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Common Foods - Group 1-030 &lt;Effects of Common Foods on Bacteria in Water&gt;</title>
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="icon" href="/images/favicon.ico" />
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body id="mainbody">
+
+<!--search here-->
+<noscript>
+<h2 style="color:Red;text-align:center;">You need to enable javascript</h2>
+
+<!--<meta http-equiv="refresh" content="0;index-noscript.html" />-->
+</noscript>
+<div style="cursor:pointer"><a title="Options"><img id="opt" src="images/gear.png" alt="Gear Menu"/></a></div>
+<div id="popmenu">
+	<ul class="MenuBarVertical" id="Menubar4" style="width:auto;">
+        <li id="refc" style="font-size:13px;"><a>Refresh text-rendering</a></li>
+        <li id="fdbk" style="font-size:13px;"><a title="Please help to fill in this. Thank You!">Feedback</a></li>
+        <li id="kebs" style="font-size:13px;"><a>Keyboard Shortcuts</a></li>
+    </ul>
+</div>
+<iframe id="feedback" style="position:fixed;"></iframe>
+
+<div id="keyboardshortcut">
+	<span style="text-align:right; color:white; opacity:1;filter:alpha(opacity=100); font-size:14px; padding:5px;">To close, press esc or <a onclick="if(kbsopen == true){$('#keyboardshortcut').fadeOut('slow');kbsopen = false;}" style="text-decoration:underline; cursor:pointer">close</a></span>
+	<table style="padding:10px">
+    	<tr>
+        	<td style="color:white">
+            	When image-preview is open:
+                <table style="border:1px solid white;">
+                	<tr><td style="width:75px;">SHIFT + 0</td><td>:</td><td>Reset zoom</td></tr>
+                    <tr><td>SHIFT + +</td><td>:</td><td>Increase zoom</td></tr>
+                    <tr><td>SHIFT + -</td><td>:</td><td>Decrease zoom</td></tr>
+                </table>
+                <br/>
+                <table>
+                	<tr><td style="width:75px;">SHIFT + t</td><td>:</td><td>Toggle Browser Default Context Menu and Default Context menu</td></tr>
+                </table>
+            </td>
+            <td style="color:white">
+            	<table>
+                    <tr><td style="width:75px;">CTRL + <span class="punct">&uarr;</span></td><td>:</td><td>Move to top</td></tr>
+                    <tr><td>CTRL + <span class="punct">&frasl;</span></td><td>:</td><td>Refresh text-rendering</td></tr>
+                    <tr><td>CTRL + '</td><td>:</td><td>Get New Funfact</td></tr>
+                    <tr><td>CTRL + ,</td><td>:</td><td>Show Keyboard Shortcuts (This window)</td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="cuioverlay" style="position:fixed;"></div>
+<div id="feedbackoverlay" style="position:fixed;"></div>
+<div id="closepopup" style="position:fixed;"><img src="images/xbutton.png" alt="Close This Popup" id="closepic"/></div>
+<img id="cui" style="position:fixed;cursor:move" alt="Magnified Image" src="images/blank.gif"/>
+<div id="imgtoolbar" style="display:none;position:fixed;bottom:0;height:30px; z-index:100000; margin-bottom:10px; height:auto;">
+	<table style="padding:10px;height:50px;">
+    	<tr>
+        	<td style="cursor:pointer"><a><img src="images/zoom-in-drawn-blue.png" alt="Zoom in" id="zoomin" style="padding-top:15px;"/></a></td>
+            <td style="cursor:pointer"><a><img src="images/zoom-out-drawn-blue.png" alt="Zoom out" id="zoomout" style="padding-top:15px;"/></a></td>
+            <td id="resetzoom" style="cursor:pointer;width:50px;">Reset Zoom</td>
+            <td>Scroll the mousewheel up to magnify<br/>Scroll the mousewheel down to minify</td>
+        </tr>
+    </table>
+</div>
+<div class="container">
+  <div class="header">
+  <table border="0">
+  	
+    <tr>
+    	<td>
+        	<a href="index.html"><img src="images/icon.png" alt="Logo" width="180" height="90" id="Insert_logo" style="background:#74CCFC; display:block;" /></a>
+        </td>
+        <td class="style2">
+        	<a href="index.html"><h1 class="en" style="text-align:left;height:90px;" >Effects of Common Foods on Bacteria in Water</h1></a>
+            <form action="search.php" style="float: right;position: relative; right: 20px;bottom: 0px;" method="get">
+                <input type="search" id="searchbox" placeholder="Enter Search Here" name="q"/>
+                <input type="submit" value="Search this website">
+            </form>
+        </td>
+   	</tr>
+  </table>
+    <!-- end .header --></div>
+
+ 
+  
+  <div id="ht2"></div><div id="sidebar1wrapper">
+  
+  <div id="sidebar1">
+    <div id="menu">
+    <!--start spry menu-->
+    <ul class="topnav">
+      <li><a class="en" href="index.html">Home</a></li>
+      <li><a class="en" href="rationale.html">Rationale</a></li>
+      <li><a class="en" href="commonfoods.html">Food Sources</a>
+        <ul class="subnav">
+          <li><a href="commonfoods.html?i=1" class="en">Lime</a></li>
+          <li><a href="commonfoods.html?i=2" class="en">Garlic</a></li>
+          <li><a href="commonfoods.html?i=3" class="en">Onion</a></li>
+          <li><a href="commonfoods.html?i=4" class="en">Coffee Grounds</a></li><!--(Caffeine)-->
+        </ul>
+      </li>
+      <li><a class="en" href="experiment.html">Experiment</a>
+        <ul class="subnav">
+          <li><a href="materials.html" class="en">Materials & Apparatus</a></li>
+          <li><a href="methodology.html" class="en">Methodology</a></li>
+        </ul>
+      </li>
+      <li><a class="en" href="results.html">Results</a>
+         <ul class="subnav">
+              <li><a href="results.html?i=1" class="en">Data</a></li>
+              <li><a href="results.html?i=2" class="en">Conclusion</a></li>
+        </ul>
+      </li>
+      <li><a class="en" href="applications.html">Applications</a>
+      </li>
+      <li><a class="en" href="members.html">Members</a>
+        <ul class="subnav">
+          <li><a href="members.html?i=1" class="en">Sun Yudong</a></li><!--SY-->
+          <li><a href="members.html?i=2" class="en">Koh Yi Zhe</a></li><!--KYZ-->
+          <li><a href="members.html?i=3" class="en">Tan Hsien En</a></li><!--THE-->
+          <li><a href="members.html?i=4" class="en">Ho Jie Feng</a></li><!--JF-->
+        </ul>
+      </li>
+      <li><a class="en" href="downloads.html">Downloads</a>
+        <ul class="subnav">
+          <li><a href="downloads.html?i=ppt" class="en">Our Project Powerpoints</a></li>
+          <li><a href="downloads.html?i=rar" class="en">Results and Resources</a></li>
+          <li><a href="downloads.html?i=or" class="en">Other Resources</a></li>
+          <li><a href="downloads.html?i=misc" class="en">Misc.</a></li>
+       </ul>
+      </li>
+      <li><a class="en" href="bibliography.html">Bibliography</a></li>
+      
+    </ul>
+    </div>
+<!--end spry menu-->
+</div>
+
+  
+  </div>
+    <!-- end #sidebar1 -->
+  <div class="content">
+  <!--tabs-->
+  	<div id="TabbedPanels1" class="TabbedPanels">
+      <ul class="TabbedPanelsTabGroup">
+        <li class="TabbedPanelsTab" tabindex="1"><span style="font-size:17px;" class="en">Lime</span></li>
+        <li class="TabbedPanelsTab" tabindex="2"><span style="font-size:17px;" class="en">Garlic</span></li>
+        <li class="TabbedPanelsTab" tabindex="3"><span style="font-size:17px;" class="en">Onion</span></li>
+        <li class="TabbedPanelsTab" tabindex="4"><span style="font-size:17px;" class="en">Coffee Grounds</span></li>
+      </ul>
+      
+      
+      <div class="TabbedPanelsContentGroup">
+        <div class="TabbedPanelsContent">
+        <br/>
+        
+        <h1 class="en">Lime <font size="3"><i>(Citrus aurantifolia)</i></font></h1>
+        <img src="images/food/lime.png" alt="Lime" align="left" style="width:200px; padding-right:50px; padding-left:20px;"/>
+        	<ul class="en">
+            	<li>Lime was chosen as people claim online that it is an anti-bacterial food.</li>
+                <li>Lime contains unique flavonoid compounds</li>
+                <li>It has been found to be protective against the transmission of cholera, and to be effective against yeast</li>
+                <li>Once a study was conducted, where lime was used to treat water in a sewage plant. The outcome: average amount of viruses and bacteria in waste water had drastic drops of up to 96%</li>
+                <li>Lime is known to be an essential ingredient in the preparation of most herbal concoctions. It is also used to suppress stomach ache.</li>
+                <li>Its antimicrobial activities have also been described as various parts of the plant were found effective against gram-positive and gram-negative bacteria.</li>
+            </ul>
+            <font face="Calibri" size="-2">Lime Image from: <a href="http://www.chemical-industries.com" target="_blank">www.chemical-industries.com</a></font> <br>
+            <font face="Calibri" size="-2">Information Source: W.O.K Grabow, Nerrie C. Basson , 1997. National Institute for Water Research of the Council of Scientific and Industrial Research</a></font>
+    		
+        </div>
+        <div class="TabbedPanelsContent">
+        <br/>
+        <h1 class="en">Garlic <font size="3"><i>(Allium sativum)</i></font></h1>
+        <img src="images/food/garlic.png" alt="garlic" align="left" style="width:200px; padding-right:50px; padding-left:20px;"/>
+        	<ul class="en">
+            	<li>Contains a disulfide, <i>Ajeone</i>, prevents infections with yeast Candida albicans</li>
+                <li>Crushed garlics prevent infection of <i>Pseudomonas aeruginosa</i> in burn patients</li>
+                <li>Garlic extract, <i>(Allicin)</i> was once tested on carrot seeds infested with <i>Alternaria</i>.  For the control, 12/100 seeds grew.  For the samples treated with <i>Allicin</i>, 47/100 seeds grew.</li>
+                <li>Garlic has been reported to help prevent heart disease including <i>atherosclerosis</i>, as well as high blood pressure and cancer</li>
+                <li>It has also been reasonably, successfully used in AIDS patients to treat <i>Cryptosporidium</i> infections in an uncontrolled study in China</li>
+            </ul>
+            <br>
+            <font face="Calibri" size="-2">Information Source: The world, 2011, 1 1</a></font> <br>
+            <font face="Calibri" size="-2">Information Source: Alan.J.Sulsarenko, Anant Patel, Daniela Portz, 2007, 27th September</a></font>
+            <br>
+            <font face="Calibri" size="-2">Online Website: <a href="http://www.whfoods.com/genpage.php?tname=foodspice&dbid=27" target="_blank">www.whfoods.com </a></font> <br>
+            
+        </div>
+        <div class="TabbedPanelsContent">
+        <br/>
+        <h1 class="en">Onion <font size="3"><i>(Allium cepa)</i></font></h1>
+        <img src="images/food/onion.png" alt="onion" align="left" style="width:200px; padding-right:50px; padding-left:20px;"/>
+        	<ul class="en">
+            	<li>Onion extracts are found to have high antioxidant capacity.</li>
+                <li>Onions rank in the top 10 of commonly eaten vegetables in their quercetin content.</li>
+                <li><i>Quercetin</i> was extracted from the onions and separately added to cultures of <i>Bacillus Cereus</i>, <i>Staphylococcus Aureus</i>, <i>M. Luteus</i></li>
+                <li><i>Quercetin</i> had an inhibitory effect on all the strains of bacteria that were studied. </li>
+            </ul>
+        <font face="Calibri" size="-2">Onion Image from: <a href="http://delish.com" target="_blank">delish.com</a></font> <br>
+    	<font face="Calibri" size="-2">Information Source: Jonathan Santas; María Pilar Almajano; The University of Barcelona, 
+Spain, 2010.  The International Journal of Food Science and Technology
+</font>	
+        </div>
+        
+        <div class="TabbedPanelsContent">
+        <br/>
+        <h1 class="en">Coffee grounds (Caffeine) <font size="3"><i>(1,3,7-trimethylxanthine)</i></font></h1>
+        <img src="images/food/coffeegrounds.jpg" alt="coffee grounds" align="left" style="width:200px; padding-right:50px; padding-left:20px;"/>
+        	<ul class="en">
+            	<li>Results revealed that the addition of caffeine inhibited the growth of <i>E. coli</i> O157:H7, and thus indicating that caffeine has potential as an antimicrobial agent for the treatment of <i>E. coli</i> O157:H7</li>
+                <li>Coffee Grounds was more effective at inhibiting bacterial strains than was the antibiotic <i>ampicillin.</i></li>
+                <li>Coffee grounds has been tested for antibacterial effects on <i>staphylococcus</i>, <i>enterobacter</i>, <i>salmonella</i> and <i>E. coli.</i></li>
+                <li>Caffiene has been show to be successful when combating <span class="tooltip" tooltip="<b>Escherichia coli</b><div style='float:left;'><img src='images/ecoli.jpg' width='138' alt='E.coli Image'><br><span style='color:#ccc;font-size:11px'>en.wikipedia.org</span></div><p>Escherichia coli is a Gram-negative, rod-shaped bacterium that is commonly found in the lower intestine of warm-blooded organisms</p><span style='color:#ccc;font-size:11px'>Wikipedia</span>">E.coli</span> and Ps.fluorescens, in a study conducted by the laboratory of ecological immunology.</li>
+            </ul>
+    	<font face="Calibri" size="-2">Coffee Grounds Image from: <a href="http://www.istockphoto.com" target="_blank">iStockphoto</a></font>
+        <br>
+        <font face="Calibri" size="-2">Online Website: <a href="http://www.livestrong.com/article/545173-does-caffeine-affect-bacteria/" target="_blank">www.livestrong.com </a></font> 	
+        </div>
+        
+      </div>
+      
+      
+    </div>
+    <!--tabs end-->
+    <!-- end .content --></div>
+    
+  <div class="sidebar2">
+    <h4 class="en" >Did you know?</h4>
+    <a title="Click to get a new funfact"><p class="en" id="funfact"><span class="cursordefault"></span></p></a>
+    
+
+    <div id="CollapsiblePanel3" class="CollapsiblePanel">
+
+        <div class="CollapsiblePanelTab" tabindex="0" id="opttab">
+            <span class="en" style="font-size:17px;">Members</span></div>
+        <div class="CollapsiblePanelContent en">
+        <!--content-->
+        <br/>
+        <p>
+        Sun Yudong <b style="color:Green;">Leader</b><br/>
+        Ho Jie Feng<br/>
+        Koh Yi Zhe<br/>
+        Tan Hsien En<br/>
+        </p>
+        </div>
+     </div>
+    <!-- end .sidebar2--></div>
+
+    
+ 
+    
+    <div id="footerwrapper" >
+  <div id="footer">
+    <div class="copyright" style="text-align:center">
+    <p>&copy;Copyright Group 1-030 Projects Day 2012</p>
+    <br/><br/>
+	<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+    </div>
+    <p style="text-align:center;">
+    <a class="wingding3 link" id="ec1">r</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="wingding3 link" id="ec2">q</a></p>
+    <!-- end #footer --></div>
+ 
+  <div id="footer2">
+    <p class="en"><span class="copyright">Technologies used: 
+    <a href="http://cufon.shoqolate.com/" target="_blank">Cufon</a> |
+    <a href="http://jquery.com/" id="jq" target="_blank">jQuery</a> | 
+    <a href="http://jqueryui.com/" id="jqu" target="_blank">jQuery UI</a> | 
+    <a href="http://labs.adobe.com/technologies/spry/" target="_blank">Spry</a>
+    </span></p>
+
+    <!-- end #footer2 --></div>
+    </div>
+
+        <!-- end .container --></div>
+
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryURLUtils.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/jquery-ui.min.js" type="text/javascript"></script>
+<script src="font/cufon-yui.js" type="text/javascript"></script>
+<script src="font/Cabin_400-Cabin_700-Cabin_italic_400-Cabin_italic_700.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+	    Cufon.replace('h1,h2,h3,h4,h5,h6', {
+            fontFamily: 'Cabin',
+            hover: true,
+            forceHitArea: true
+        });
+        
+        Cufon.now();
+</script>
+<script src="jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="funfacts/funfact.jquery.min.js" type="text/javascript"></script>
+<script src="floatingmenu.js" type="text/javascript"></script>
+<script src="javascript.js" type="text/javascript"></script>
+<script src="funfacts/garlic.funfact.js" type="text/javascript" async></script>
+<script src="funfacts/water.funfact.js" type="text/javascript" async></script>
+<script src="funfacts/onion.funfact.js" type="text/javascript" async></script>
+<script src="funfacts/lime.funfact.js" type="text/javascript" async></script>
+<script src="funfacts/coffeegrounds.funfact.js" type="text/javascript" async></script>
+<script src="funfacts/water.funfact.js" type="text/javascript" async></script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34016937-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+    var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+    
+
+    var CollapsiblePanel3 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel3");
+
+    
+
+	var params = Spry.Utils.getURLParamsAsObject(window.location.toString());
+	if(params.i)TabbedPanels1.showPanel(params.i - 1);
+</script>
+</body>
+</html>
+<!--"font/calibri_400-calibri_700-calibri_italic_400-calibri_italic_700.font.js", --><---

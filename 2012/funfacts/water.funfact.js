@@ -1,0 +1,11 @@
+$("#funfact").funfact('register',"Drinking too much water too quickly can lead to water intoxication. Water intoxication occurs when water dilutes the sodium level in the bloodstream and causes an imbalance of water in the brain.");
+$("#funfact").funfact('register',"Water intoxication is most likely to occur during periods of intense athletic performance.");
+$("#funfact").funfact('register',"While the daily recommended amount of water is eight cups per day, not all of this water must be consumed in the liquid form. Nearly every food or drink item provides some water to the body.");
+$("#funfact").funfact('register',"Soft drinks, coffee, and tea, while made up almost entirely of water, also contain caffeine. Caffeine can act as a mild diuretic, preventing water from traveling to necessary locations in the body.");
+$("#funfact").funfact('register',"Water dissolves more substances than any other liquid. Wherever it travels, water carries chemicals, minerals, and nutrients with it.");
+$("#funfact").funfact('register',"Much more fresh water is stored under the ground in aquifers than on the earth’s surface.");
+$("#funfact").funfact('register',"By the time a person feels thirsty, his or her body has lost over 1 percent of its total water amount.");
+$("#funfact").funfact('register',"The weight a person loses directly after intense physical activity is weight from water, not fat.");
+$("#funfact").funfact('register',"Of all the water on the earth, humans can used only about three tenths of a percent of this water. Such usable water is found in groundwater aquifers, rivers, and freshwater lakes.");
+$("#funfact").funfact('register',"We need to drink water frequently, but drinking too much water can kill you. Drinking too much water can cause a dangerously low dilution of electrolytes and other minerals in the body, leading to death by “hyper-hydration.” Fortunately, the two most common causes of this condition in healthy individuals can be avoided: long exercise periods where lots of water is consumed with few electrolytes ingested (try a sports drink instead); and water-drinking contests or hazing rituals.");
+$("#funfact").funfact('register',"Water is one of the few substances on Earth that occurs naturally in solid (ice), liquid (water) and gas (water vapor, steam) states.");

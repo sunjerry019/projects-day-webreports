@@ -1,0 +1,8 @@
+# 27/08/2014  5:42:34.03 v1.0
+CACHE MANIFEST
+/offline/index.html
+/images/favicon.ico
+NETWORK:
+*
+FALLBACK:
+/ /offline/index.html

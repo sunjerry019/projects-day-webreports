@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/experiments.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/results.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/downloads.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/aboutus.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/references.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/downloads/presentations/AOS_Bioremediation_v1.8_prelims.pptx</loc>
+  <lastmod>2014-08-26T14:03:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/downloads/presentations/AOS_Bioremediation_v2.3_semis.pptx</loc>
+  <lastmod>2014-08-26T14:03:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/downloads/presentations/AOS_Bioremediation_v2.5_finals.pptx</loc>
+  <lastmod>2014-09-06T16:16:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/downloads/documents/Research%20Proposal.doc</loc>
+  <lastmod>2014-08-26T14:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://server-yds.letsgeekaround.com/pday2014/downloads/documents/AOS_Bioremediation_ResearchPaper%20v1.2.docx</loc>
+  <lastmod>2014-09-06T16:16:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>

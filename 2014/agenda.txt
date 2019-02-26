@@ -1,0 +1,7 @@
+movetotop btn
+when floating, the height cannot change
+    #header + .fixed
+    #float-filler change height
+    #header-float-wrap + .floating
+
+Add formulae for calculating

@@ -1,0 +1,72 @@
+h2 {
+	text-align: center;
+	color: #c20c33;
+}
+
+#compofres h3 {
+    border-left: 5px solid #F04848;
+    padding-left: 10px;
+}
+
+#discussions h3 {
+	border-left: 5px solid #9900cc;
+    padding-left: 10px;
+}
+
+#conclusion h3 {
+	border-left: 5px solid #cc9900;
+    padding-left: 10px;
+}
+
+#limitations h3 {
+	border-left: 5px solid #0099cc;
+    padding-left: 10px;
+}
+
+.graph {
+    width: calc(50% - 10px);
+	margin-bottom:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.graph:nth-of-type(2n) {
+	float: right;
+}
+
+.graph img {
+    width: 400px;
+    margin: auto;
+    display: block;
+    background-color: #1E1E1E;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.graph .caption {
+    text-align: center;
+}
+
+#iow h1 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#conclusion ul {
+	list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+	padding-left: 5px;
+}
+
+#conclusion ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#app #prototype {
+	float: right;
+	width: 150px;
+	margin: 5px 10px 5px 20px;
+}

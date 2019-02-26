@@ -1,0 +1,17 @@
+h3#references {
+    border-left: 5px solid #9900cc;
+    padding-left: 10px;
+}
+
+.csl-bib-body {
+    margin: 0px 15px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+}
+
+.csl-entry {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,298 @@
+h3#app {
+    border-left: 5px solid #99CC00;
+    padding-left: 10px;
+}
+
+h3#mat {
+    border-left: 5px solid #0887B5;
+    padding-left: 10px;
+}
+
+h3#methods {
+    border-left: 5px solid #FF49A3;
+    padding-left: 10px;
+}
+
+#apparatus_container ul {
+    /*list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');*/
+    list-style: none;
+    padding-left: 10px;
+    
+    columns: 4;
+    -moz-columns: 4;
+    -webkit-columns: 4;
+    
+    column-fill: balance;
+    -moz-column-fill: balance;
+    -webkit-column-fill: balance;
+}
+
+#apparatus_container ul li img {
+    width: 134px;
+    margin-left: calc(50% - 67px)
+}
+
+#apparatus_container ul li span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+#materials_container ul {
+    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+    padding-left: 10px;
+    
+    columns: 2;
+    -moz-columns: 2;
+    -webkit-columns: 2;
+    
+    column-fill: balance;
+    -moz-column-fill: balance;
+    -webkit-column-fill: balance;
+}
+
+#apparatus_container ul li, #materials_container ul li {
+    padding: 10px 0px;
+}
+
+#methods_container h2 {
+    text-align: center;
+}
+
+#variables_container p {
+    margin-left: 210px;
+}
+
+#variables_container p.parahead {
+    font-weight: 300;
+    display: inline-block;
+    margin: 6px 10px 0px 0px;
+    width: 200px;
+    float: left;
+    color: #d85000;
+}
+
+#variables_container p.parahead:nth-of-type(1) {
+    margin-top: 0px;
+}
+
+#prepwastewater {
+    margin-bottom: 5px;
+}
+
+#prepwastewater h3 {
+    margin: 0px 0px 5px 0px;
+}
+
+#prepwastewater div[id$="prep"] {
+    width: calc(50% - 20px);
+    display: inline-block;
+    padding: 10px 10px 10px 0px;
+}
+
+#prepwastewater div#srprep {
+    margin-left: 10px;
+}
+
+#prepwastewater div#cuprep {
+    border-right: 1px solid #ccc;
+    width: calc(50% - 21px);
+}
+
+#prepwastewater p.f {
+    text-align: center;
+}
+
+#prepwastewater p.f span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #0887B5;
+    margin: 5px;
+}
+
+#prepwastewater p.conc {
+    text-align: right;
+}
+
+#prepwastewater p.conc span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #d85000;
+    margin: 5px;
+}
+
+#strontiumconc li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+#drymassratio div#dmrwrap {
+    /*border-top: 1px dashed #888;
+    border-bottom: 1px dashed #888;*/
+    width: 500px;
+    margin: auto;
+}
+
+#drymassratio div#dmrwrap div {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 5px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+#drymassratio div#dmrwrap div.weighed span {
+    border-top: 1px solid #d85000;
+    border-bottom: 1px solid #d85000;
+    display: inline-block;
+    padding: 5px;
+    font-weight: 300;
+}
+
+#livealgae {
+    margin-bottom: 20px;
+}
+
+#livealgae .expsetup {
+    width: 700px;
+    margin: auto;
+}
+
+#deadalgae .expsetup {
+    width: 500px;
+    margin: auto;
+}
+
+#livealgae .expsetup a:visited, #livealgae .expsetup a:link, #livealgae .expsetup a:hover, #livealgae .expsetup a:active {
+    color: #000;
+}
+
+#livealgae .expsetup a:hover {
+    color: #302D2D;
+    cursor: help;
+}
+
+.expsetup img {
+    height: 200px;
+    z-index: 0;
+    margin-bottom: 50px;
+}
+
+.expsetup .textcontainer {
+    display: inline-block;
+    z-index: 1;
+    margin-left: -50px;
+}
+
+.expsetup .ctrl {
+    float: left;
+}
+
+.expsetup .test {
+    margin-left: calc(50%);
+}
+
+.expsetup .text {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.expsetup .ctrl .text{
+    border: 1px solid #99CC00;
+    background-color: rgba(118, 158, 0, 0.5);
+}
+
+.expsetup .test .text{
+    border: 1px solid #0099cc;
+    background-color: rgba(0, 126, 168, 0.5);
+}
+
+.rep {
+    float: right;
+    padding-top: 114px;
+    padding-right: 20px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+#deadalgae .rep {
+    padding-top: 134px;
+}
+
+#livealgae table {
+    width: 600px;
+    margin: auto;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    border-spacing: 10px;
+}
+
+#livealgae table td {
+    width: 300px;
+}
+
+.conc {
+    color: #cc0033;
+}
+
+.bracket {
+    font-size: 13px;
+}
+
+.math {
+    font-size: 20px;
+}
+
+.where {
+    line-height: 25px;
+    width: 600px;
+    margin: auto;
+}
+
+.where p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+
+#algaeprowrap {
+    display: flex;
+}
+
+#algaeprowrap div {
+    flex-grow: 1;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#algaeprowrap div:nth-child(1) {
+    border-color: #45b3e7;
+    background-color: #89cff0;
+}
+
+#algaeprowrap div:nth-child(3) {
+    border-color: #e56f6f;
+    background-color: #f4c2c2;
+}
+
+#algaeprowrap div:nth-child(5) {
+    border-color: #70c821;
+    background-color: #a2e665;
+}
+
+#algaeprowrap div:nth-child(2n) {
+    border: none;
+}
+
+#deadalgae .expsetup {
+    margin-top: 40px;
+}

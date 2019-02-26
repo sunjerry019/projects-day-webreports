@@ -1,0 +1,38 @@
+h3#hci {
+    border-left: 5px solid #F04848;
+    padding-left: 10px;
+}
+
+h3#aos {
+    border-left: 5px solid #249B4E;
+    padding-left: 10px;
+}
+
+.person img {
+    height: 100px;
+    float: left;
+}
+
+.person h2 {
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-left: 110px;
+}
+
+.description p {
+    margin-top: 5px;
+}
+
+#hci_wrap {
+    position: absolute;
+}
+
+#aos_wrap {
+    margin-left: 50%;
+}
+
+#note {
+    font-size: 13px;
+}

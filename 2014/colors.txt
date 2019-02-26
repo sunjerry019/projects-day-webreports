@@ -1,0 +1,18 @@
+#FF8800 orange
+#99CC00 green -> #cefc44 light
+{
+    #33B5E5 light blue
+    #0099CC blue
+    #006699 dark blue
+}
+#CC0099 purple
+#F9F9F9 white
+#302D2D somewhat black
+#cc0033 pink red
+
+#ccc gray
+#aaa dark gray
+#8C8C8C another dark shade of gray
+#F9EDBE soft notif yellow
+
+#d85000 orange

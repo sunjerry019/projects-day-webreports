@@ -1,0 +1,33 @@
+h3#powerpoints {
+    border-left: 5px solid #F04848;
+    padding-left: 10px;
+}
+
+h3#documents {
+    border-left: 5px solid #006699;
+    padding-left: 10px;
+}
+
+h3#results {
+    border-left: 5px solid #5E920A;
+    padding-left: 10px;
+}
+
+.fileContainer a {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    display: inline-block;
+}
+
+.file {
+    margin-right: 15px;
+    vertical-align: text-top;
+}
+
+.size {
+    font-weight: 300;
+    margin-left: 350px;
+    display: block;
+}

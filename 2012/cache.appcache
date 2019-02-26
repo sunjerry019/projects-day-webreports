@@ -1,0 +1,18 @@
+# Tue 21/08/2012 17:41:11.08 v2.2
+CACHE MANIFEST
+/offline/index.php
+/images/favicon.ico
+/images/icon.png
+/style.css
+/javascript.js
+/jquery.jqplot.min.js
+/head.min.js
+/jquery.jqplot.min.css
+/jquery.flexslider-min.js
+/font/Cabin_400-Cabin_700-Cabin_italic_400-Cabin_italic_700.font.js
+/font/cufon-yui.js
+/font/wingdings3_400.font.js
+NETWORK:
+*
+FALLBACK:
+#/ /offline/index.php

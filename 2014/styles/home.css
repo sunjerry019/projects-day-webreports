@@ -1,0 +1,192 @@
+h3#abstract {
+    border-left: 5px solid #9900cc;
+    padding-left: 10px;
+}
+
+h3#intro {
+    border-left: 5px solid #0099CC;
+    padding-left: 10px;
+}
+
+h3#rationale {
+    border-left: 5px solid #FF8800;
+    padding-left: 10px;
+}
+
+h3#objectives {
+    border-left: 5px solid #F04848;
+    padding-left: 10px;
+}
+
+h3#hypothesis {
+    border-left: 5px solid #5E920A;
+    padding-left: 10px;
+}
+
+#ulva1 {
+    float: right;
+}
+
+#ulva1 img {
+    height: 200px;
+}
+
+/*rationale-container*/
+.ratBoxes {
+    padding: 20px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+}
+
+#rapidInd {
+    width: 150px;
+    background-color: #B1CBE9;
+}
+
+#hmp {
+    width: 150px;
+    background-color: #EECFE9;
+}
+
+#aqe {
+    width: 150px;
+    background-color: #89cff0;
+}
+
+#toxic {
+    width: 150px;
+    background-color: #f04848;
+    color: #F9F9F9;
+}
+
+.arrow1 {
+    margin: 33px 5px;
+    vertical-align: bottom;
+}
+
+#rationale-container .diagramBox {
+    width: 870px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#bioremediation {
+    margin-bottom: 20px;
+}
+
+#bioremediation h2 {
+    margin-bottom: 10px;
+}
+
+#bioremediation div {
+    width: calc(50% - 20px);
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bioremediation div h3 {
+    margin-top: 10px;
+}
+
+#physicala {
+    padding-right: 10px;
+}
+
+#absorption {
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+}
+
+#whyulva h2, #whyulva h3, #bioremediation h2, #hmi h2 {
+    text-align: center;
+}
+
+#whyulva h3 {
+    margin-bottom: 10px;
+}
+
+#whyulva {
+    margin-bottom: 20px;
+}
+
+#whyulva p {
+    margin-left: 210px;
+}
+
+#whyulva .parahead {
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 0px;
+    width: 200px;
+    float: left;
+    color: #90c;
+}
+
+#hmi p {
+    margin-left: 10px;
+}
+
+#hmi h2 {
+    margin-bottom: 10px;
+}
+
+#hmi h4 {
+    margin:0px;
+    color: #d85000;
+}
+
+#hmi #copper, #hmi #strontium {
+    width: calc(50% - 20px);
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+#hmi div h3 {
+    margin-top: 10px;
+}
+
+#hmi #copper {
+    padding-right: 10px;
+}
+
+#hmi #strontium {
+    padding-left: 10px;
+}
+
+#hmi .conc {
+    color: #f04848;
+    display: inline-block;
+    margin-right: 20px;
+    float: left;
+    position: absolute;
+}
+
+#hmi .concspan {
+    margin-left: 230px;
+}
+
+#hmi .hmibtm {
+    width: 100%;
+}
+
+#strontium .hmibtm {
+    margin-top: 183px;
+}
+
+/*end rationale*/
+
+#objectives-container p:before {
+    content: "\20 \2013 \20";
+}
+
+#hypothesis-container p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 50px 5px;
+}
